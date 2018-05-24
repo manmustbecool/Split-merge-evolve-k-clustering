@@ -7,15 +7,18 @@ A key metric during the clustering process of the Split-merge-evolve algorithm i
 ![alt text](https://github.com/manmustbecool/Split-merge-evolve-k-clustering/blob/master/GraphicalComparsion.jpg)
 
 
-## Demo video
+## PowerPoint and Demo video
+
+PPT: https://github.com/manmustbecool/Split-merge-evolve-k-clustering/blob/master/SplitMergeEvolveClustering.pptx
 
 Videos are in .avi format
 
-https://github.com/manmustbecool/Split-merge-evolve-k-clustering/blob/master/demo_video
+Videos: https://github.com/manmustbecool/Split-merge-evolve-k-clustering/blob/master/demo_video
+
 
 ## Paper
 
 * A novel Split-merge-evolve k clustering algorithm <br/>
 The Fourth IEEE International Conference on Big Data Computing Service and Applications, 2018
 
-pdf: https://github.com/manmustbecool/MyWiki/blob/gh-pages/papers/A%20novel%20Split-merge-evolve%20k%20clustering%20algorithm.pdf
+PDF: https://github.com/manmustbecool/MyWiki/blob/gh-pages/papers/A%20novel%20Split-merge-evolve%20k%20clustering%20algorithm.pdf
