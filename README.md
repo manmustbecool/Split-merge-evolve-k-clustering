@@ -1,13 +1,12 @@
 # Split-merge-evolve k clustering
 
-
 A key metric during the clustering process of the Split-merge-evolve algorithm is a user chosen/defined clustering quality or internal evaluation metric. The algorithm evolves the final clustering result towards the user expected high quality result. 
 
 
 ![alt text](https://github.com/manmustbecool/Split-merge-evolve-k-clustering/blob/master/GraphicalComparsion.jpg)
 
 
-## PowerPoint and Demo video
+## PowerPoint and Demo videos
 
 PPT: https://github.com/manmustbecool/Split-merge-evolve-k-clustering/blob/master/SplitMergeEvolveClustering.pptx
 

@@ -3,11 +3,12 @@
 # load one of the following datasets
 # k for setting number of clusters
 
-#-------------- fake dataset 1  ----------------
+#-------------- dataset 1 - Artificial  ----------------
+# 2 classes
 
 set.seed(1984)
 x1 <- sample(seq(0.1, 0.5, by=0.01), 50, replace = T)
-x2 <- sample(seq(0.3, 0.5, by=0.01), 300, replace = T)
+x2 <- sample(seq(0.3, 0.5, by=0.01), 300, replace = T) # noise of x1
 x3 <- sample(seq(0.8, 1.0, by=0.01), 300, replace = T)
 
 xx <- c(x1, x2, x3)
@@ -19,7 +20,9 @@ evaluationData <- c( array(1, length(x1)+length(x2)), array(2, length(x3)))
 
 k=2
 
-# ---------- fake dataset 2  ---------------
+# ----------  dataset 2 - Artificial   ---------------
+# 3 classes
+
 
 set.seed(1986)
 x1 <- matrix(rnorm(600, mean=2, sd=0.5),nc=2)
@@ -40,7 +43,9 @@ evaluationData <- c(array(1,nrow(x1)), array(2,nrow(x2)), array(3,nrow(x3)))
 
 k=3
 
-#--------------iris data set 3  -----------------------
+#-------------- data set 3 - iris  -----------------------
+# 3 classes
+
 # training data
 trainingData <- iris[,c(1:4)]
 evaluationData <- iris[, 5]
@@ -52,7 +57,6 @@ k <-3
 #----------------------  +++++++   ---------------------------
 
 table(evaluationData)
-
 
 
 #------------------evaluation loop------------------------------------------------
